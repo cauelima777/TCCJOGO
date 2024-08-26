@@ -1,0 +1,45 @@
+{
+  "$GMTileSet":"",
+  "%Name":"tl_florest",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[13,15,16,10,18,12,0,9,17,0,14,11,20,19,21,0,],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":4,
+    "SerialiseWidth":3,
+    "TileCompressedData":[-4,0,2,1,2,-4,0,2,3,4,],
+    "TileDataFormat":1,
+  },
+  "name":"tl_florest",
+  "out_columns":5,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Conjuntos de tiles",
+    "path":"folders/Conjuntos de tiles.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_tileset_florest",
+    "path":"sprites/spr_tileset_florest/spr_tileset_florest.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimation":{
+    "FrameData":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,],
+    "SerialiseFrameCount":1,
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":64,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":64,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":22,
+}
