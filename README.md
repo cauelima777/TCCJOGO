@@ -15,7 +15,12 @@ if (place_meeting(x, y, obj_player)) {
     global.tem_chave_incremento += 1;
 }
 
-obj_player:
+
+
+
+
+
+obj_player :
 
 Criar:
 
@@ -41,6 +46,13 @@ draw_text_transformed(500, 100, "PROJETO EM DESENVOLVIMENTO (ALPHA)", 1.5, 1.5, 
 
 
 
+
+
+
+
+
+
+
 (Gerar partícula ao colidir) obj_hab:
 
 speed = 5
@@ -58,6 +70,12 @@ part_type_color1(particle_type, c_white);         // Cor da partícula
 part_type_alpha3(particle_type, 1, 3.5, 0);     // Transparência (início -> meio -> fim)
 part_type_speed(particle_type, 1, 2, 0, 0);     // Velocidade da partícula
 part_type_life(particle_type, 30, 60);          // Vida útil (frames)
+
+
+
+
+
+
 
 
 TILESETS: NOVOS BLOCOS
