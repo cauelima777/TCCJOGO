@@ -16,7 +16,7 @@ if(place_meeting(x, y + velocidade_vertical, obj_block)) {
 
 	velocidade_vertical = 0;
 
-
+	
 
 }
 

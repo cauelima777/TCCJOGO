@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_fase",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_lava",
+  "eventList":[],
   "managed":true,
-  "name":"obj_fase",
+  "name":"obj_lava",
   "overriddenProperties":[],
   "parent":{
-    "name":"fases",
-    "path":"folders/Objetos/fases.yy",
+    "name":"Enemy",
+    "path":"folders/Objetos/Enemy.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,12 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_lock_door",
-    "path":"sprites/spr_lock_door/spr_lock_door.yy",
+    "name":"spr_lava",
+    "path":"sprites/spr_lava/spr_lava.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_lock_door",
-    "path":"sprites/spr_lock_door/spr_lock_door.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

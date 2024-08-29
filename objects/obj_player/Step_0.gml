@@ -66,6 +66,7 @@ velocidade_horizontal = clamp(velocidade_horizontal, -velocidade_h_max, velocida
 if (timer >= timer_max) {
     var enemy = instance_nearest(x, y, obj_enemy);
     var enemy_slime = instance_nearest(x, y, obj_enemy_slime);
+	var lava = instance_nearest(x, y, obj_lava);
 
     if (instance_exists(enemy) && place_meeting(x, y, obj_enemy)) {
         if (velocidade_vertical <= 0) {
@@ -77,6 +78,12 @@ if (timer >= timer_max) {
             vida--;
             hit = 1;
             timer = 0;
+			//Caso a vida for zero encerra o bagui
+			if(vida == 0){
+		
+				room_restart()
+			}
+			
         }
     }
 
@@ -90,11 +97,33 @@ if (timer >= timer_max) {
             vida--;
             hit = 1;
             timer = 0;
+			
+			//Caso a vida for zero encerra o bagui
+			if(vida == 0){
+		
+				room_restart()
+			}
         }
     }
+	
+	//lava dos cria dando dano no player
+	
+	if(instance_exists(lava) && place_meeting(x, y, obj_lava)){
+	
+	
+		vida--;
+		//Caso a vida for zero encerra o bagui
+		if(vida == 0){
+		
+			room_restart()
+		}
+	
+	}
+
 } else {
     timer++;
 }
+
 
 // Direção da habilidade
 if (velocidade_horizontal < 0) {
@@ -108,6 +137,7 @@ if (cd_hab == cd_hab_max) {
     if (habilidade) {
         var hab = instance_create_layer(x, y, "Colisores", obj_hab);
 
+        // Direção da habilidade
         if (dir_hab == 1) {
             hab.direction = 180;
             hab.image_xscale = -1;
@@ -115,6 +145,8 @@ if (cd_hab == cd_hab_max) {
             hab.direction = 0;
             hab.image_xscale = 1;
         }
+
+
 
         cd_hab = 0;
         hab_a = 1;

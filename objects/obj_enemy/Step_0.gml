@@ -65,6 +65,7 @@ if(vida <=0){
 }
 
 
+
 if(!chao) {
 	velocidade_vertical += gravidade;
 

@@ -1,3 +1,9 @@
+tem_chave = false; // Inicialmente o jogador não tem a chave
+
+//ITEM CHAVE
+global.tem_chave_incremento = 0; 
+
+
 velocidade = 0.1;
 gravidade = 0.3;
 velocidade_chao = velocidade;
