@@ -54,6 +54,7 @@
     {"name":"snd_passos","order":1,"path":"sounds/snd_passos/snd_passos.yy",},
     {"name":"bg_nivel_1","order":10,"path":"sprites/bg_nivel_1/bg_nivel_1.yy",},
     {"name":"menu_background_game","order":6,"path":"sprites/menu_background_game/menu_background_game.yy",},
+    {"name":"nivel_2","order":13,"path":"sprites/nivel_2/nivel_2.yy",},
     {"name":"placeholder_player_hearth","order":7,"path":"sprites/placeholder_player_hearth/placeholder_player_hearth.yy",},
     {"name":"planet","order":12,"path":"sprites/planet/planet.yy",},
     {"name":"rm","order":2,"path":"sprites/rm/rm.yy",},

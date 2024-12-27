@@ -19,3 +19,11 @@ if (place_meeting(x, y, obj_player)) {
     } 
     }
 
+if (place_meeting(x, y, obj_player)) {
+    if (obj_player.tem_chave && global.tem_chave_incremento == 2) {
+        if (room != room_last) {
+            transicao_ativa = true;        // Ativa a transição antes de mudar de fase
+            proxima_sala = rm_nivel2;      // Define a próxima fase para rm_nivel1
+        }
+    } 
+    }
