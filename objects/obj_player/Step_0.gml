@@ -195,6 +195,14 @@ if (hab_a) {
 
 
 
+if (hit > 0) {
+    hit -= 0.05; // Reduz gradualmente o efeito de hit
+    image_alpha = 0.5 + 0.5 * sin(hit * pi); // Faz o jogador "piscar"
+} else {
+    image_alpha = 1; // Volta ao estado normal
+}
+
+
 
 
 

@@ -51,3 +51,7 @@ global.y_player = y
 
 global.checkpoint_x= x;
 global.checkpoint_y = y;
+
+// Variáveis iniciais do jogador
+vida = 3; // Vida inicial do jogador
+global.invulneravel = false; // Define o jogador como não invulnerável

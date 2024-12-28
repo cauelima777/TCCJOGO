@@ -10,14 +10,16 @@ if (transicao_ativa && proxima_sala != noone) {
 }
 
 
+
 if (place_meeting(x, y, obj_player)) {
-    if (obj_player.tem_chave && global.tem_chave_incremento == 1) {
+    if (obj_player.tem_chave && global.tem_chave_incremento == 2) {
         if (room != room_last) {
             // A transição será ativada quando o jogador apertar a tecla Enter
             if (keyboard_check_pressed(vk_enter)) {
                 transicao_ativa = true;        // Ativa a transição antes de mudar de fase
-                proxima_sala = rm_nivel1;      // Define a próxima fase para rm_nivel2
+                proxima_sala = rm_nivel2;      // Define a próxima fase para rm_nivel2
             }
         }
-    } 
-}
+    
+	}
+	} 
