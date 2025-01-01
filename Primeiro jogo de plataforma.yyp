@@ -73,6 +73,7 @@
     {"id":{"name":"obj_room","path":"objects/obj_room/obj_room.yy",},},
     {"id":{"name":"obj_splash_screen","path":"objects/obj_splash_screen/obj_splash_screen.yy",},},
     {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},},
+    {"id":{"name":"voltar_room","path":"objects/voltar_room/voltar_room.yy",},},
     {"id":{"name":"rm_menu_pause","path":"rooms/rm_menu_pause/rm_menu_pause.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_nivel1","path":"rooms/rm_nivel1/rm_nivel1.yy",},},
