@@ -25,6 +25,7 @@
     {"name":"Enemy","order":4,"path":"folders/Sprites/Enemy.yy",},
     {"name":"fase","order":13,"path":"folders/Sprites/fase.yy",},
     {"name":"fonts","order":6,"path":"folders/Sprites/fonts.yy",},
+    {"name":"Nivel_5","order":15,"path":"folders/Sprites/Nivel_5.yy",},
     {"name":"Itens","order":11,"path":"folders/Sprites/Itens.yy",},
     {"name":"Pause","order":12,"path":"folders/Sprites/Pause.yy",},
     {"name":"splash_screen","order":14,"path":"folders/Sprites/splash_screen.yy",},
@@ -98,6 +99,7 @@
     {"name":"spt_start","order":1,"path":"sprites/spt_start/spt_start.yy",},
     {"name":"Terrain__16x16_","order":9,"path":"sprites/Terrain__16x16_/Terrain__16x16_.yy",},
     {"name":"tl_nivel_1","order":2,"path":"tilesets/tl_nivel_1/tl_nivel_1.yy",},
+    {"name":"tl_nivel5","order":3,"path":"tilesets/tl_nivel5/tl_nivel5.yy",},
     {"name":"tl_terrain","order":1,"path":"tilesets/tl_terrain/tl_terrain.yy",},
   ],
 }
