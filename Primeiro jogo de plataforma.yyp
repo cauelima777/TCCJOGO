@@ -91,6 +91,7 @@
     {"id":{"name":"shader_hit","path":"shaders/shader_hit/shader_hit.yy",},},
     {"id":{"name":"sdn_pulo","path":"sounds/sdn_pulo/sdn_pulo.yy",},},
     {"id":{"name":"snd_passos","path":"sounds/snd_passos/snd_passos.yy",},},
+    {"id":{"name":"BackGround","path":"sprites/BackGround/BackGround.yy",},},
     {"id":{"name":"bg_nivel_1","path":"sprites/bg_nivel_1/bg_nivel_1.yy",},},
     {"id":{"name":"menu_background_game","path":"sprites/menu_background_game/menu_background_game.yy",},},
     {"id":{"name":"multiversoFoto","path":"sprites/multiversoFoto/multiversoFoto.yy",},},
@@ -145,6 +146,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_nivel5","path":"rooms/rm_nivel5/rm_nivel5.yy",},},
     {"roomId":{"name":"rm_splash_screen","path":"rooms/rm_splash_screen/rm_splash_screen.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
@@ -153,7 +155,6 @@
     {"roomId":{"name":"rm_nivel1","path":"rooms/rm_nivel1/rm_nivel1.yy",},},
     {"roomId":{"name":"rm_nivel2","path":"rooms/rm_nivel2/rm_nivel2.yy",},},
     {"roomId":{"name":"rm_nivel3","path":"rooms/rm_nivel3/rm_nivel3.yy",},},
-    {"roomId":{"name":"rm_nivel5","path":"rooms/rm_nivel5/rm_nivel5.yy",},},
     {"roomId":{"name":"rm_nivel4","path":"rooms/rm_nivel4/rm_nivel4.yy",},},
     {"roomId":{"name":"rm_nivel6","path":"rooms/rm_nivel6/rm_nivel6.yy",},},
   ],
