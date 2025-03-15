@@ -5,7 +5,7 @@ switch (room) {
         break;
 		
 	 case rm_nivel3:
-        x = 124; // Posição inicial para o nível 1
+        x = 124; // Posição inicial para o nível 3
         y = 466;
         break;
 

@@ -31,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite37",
-    "path":"sprites/Sprite37/Sprite37.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":{
     "name":"spr_lock_door",
     "path":"sprites/spr_lock_door/spr_lock_door.yy",
