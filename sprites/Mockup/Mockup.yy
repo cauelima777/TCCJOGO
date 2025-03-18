@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"planet",
+  "%Name":"Mockup",
   "bboxMode":0,
-  "bbox_bottom":2810,
+  "bbox_bottom":399,
   "bbox_left":0,
-  "bbox_right":4999,
+  "bbox_right":1599,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7305b886-2f1e-4160-9660-23a1c6a7d68c","name":"7305b886-2f1e-4160-9660-23a1c6a7d68c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"2e7194ab-867d-44c1-9ed9-ae49402a9131","name":"2e7194ab-867d-44c1-9ed9-ae49402a9131","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":2811,
+  "height":400,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"5e682007-13aa-47fd-8913-773711ffae38","blendMode":0,"displayName":"default","isLocked":false,"name":"5e682007-13aa-47fd-8913-773711ffae38","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ef153ebe-55dc-4f5b-824b-feaec2dfc9b1","blendMode":0,"displayName":"default","isLocked":false,"name":"ef153ebe-55dc-4f5b-824b-feaec2dfc9b1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"planet",
+  "name":"Mockup",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"planet",
+    "%Name":"Mockup",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"planet",
+    "name":"Mockup",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7305b886-2f1e-4160-9660-23a1c6a7d68c","path":"sprites/planet/planet.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1c24ea4a-8cab-4c3e-8d1f-076320e17392","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2e7194ab-867d-44c1-9ed9-ae49402a9131","path":"sprites/Mockup/Mockup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ba5f8876-5f2f-4832-855f-ae45837d873e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":5000,
+  "width":1600,
 }
