@@ -46,6 +46,18 @@ cd_hab = 1 *60
 cd_hab_max = cd_hab;
 hab_a = 0;
 
+
+
+super_pulo = 15; // Força do super pulo
+pulo_normal = pulo; // Guarda o valor do pulo normal
+tem_super_pulo = false; // O jogador não tem o super pulo inicialmente
+
+
+
+
+
+
+
 global.x_player = x
 global.y_player = y
 
