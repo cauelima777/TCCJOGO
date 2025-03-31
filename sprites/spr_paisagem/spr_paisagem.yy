@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_paisagem",
   "bboxMode":0,
-  "bbox_bottom":63,
+  "bbox_bottom":3999,
   "bbox_left":0,
-  "bbox_right":63,
+  "bbox_right":3999,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,11 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"49e44031-accd-4cfc-ab83-c04f97aa92df","name":"49e44031-accd-4cfc-ab83-c04f97aa92df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b86597fe-bcbd-46c4-a2c1-d60dbd812a76","name":"b86597fe-bcbd-46c4-a2c1-d60dbd812a76","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"2b9f2b0d-a3fa-470f-b5be-300a20dc9646","name":"2b9f2b0d-a3fa-470f-b5be-300a20dc9646","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d11e7310-395d-44c5-9694-3eb83426a1b6","name":"d11e7310-395d-44c5-9694-3eb83426a1b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"56d43ead-7d8d-4ce8-b64e-4f848b42feda","name":"56d43ead-7d8d-4ce8-b64e-4f848b42feda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"4c494100-2f44-4adb-a768-dcd68e418d74","name":"4c494100-2f44-4adb-a768-dcd68e418d74","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f68d3cdb-e9e6-4ed6-aa9a-5c227ba319c3","name":"f68d3cdb-e9e6-4ed6-aa9a-5c227ba319c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":4000,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"a429dbcf-93ac-4430-a61b-1d741f38650c","blendMode":0,"displayName":"default","isLocked":false,"name":"a429dbcf-93ac-4430-a61b-1d741f38650c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -49,7 +54,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":6.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -59,7 +64,7 @@
     },
     "name":"spr_paisagem",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":5.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -69,8 +74,23 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"49e44031-accd-4cfc-ab83-c04f97aa92df","path":"sprites/spr_paisagem/spr_paisagem.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c7e41d84-6ce8-460a-8fa5-8fa61941b802","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b86597fe-bcbd-46c4-a2c1-d60dbd812a76","path":"sprites/spr_paisagem/spr_paisagem.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7a056efe-b361-4ee7-b58f-b615ce5e3609","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b9f2b0d-a3fa-470f-b5be-300a20dc9646","path":"sprites/spr_paisagem/spr_paisagem.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"55295748-134b-4c11-ae65-7e1f8d038a3b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d11e7310-395d-44c5-9694-3eb83426a1b6","path":"sprites/spr_paisagem/spr_paisagem.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"96967cc5-ac2d-4bbb-9fe8-7f6ab8ec81eb","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"56d43ead-7d8d-4ce8-b64e-4f848b42feda","path":"sprites/spr_paisagem/spr_paisagem.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"081b4e2c-d31d-434e-b1ac-4581ffa7ce99","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4c494100-2f44-4adb-a768-dcd68e418d74","path":"sprites/spr_paisagem/spr_paisagem.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5b6fe94c-ac0e-4b53-9c78-3b838d90f5c3","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f68d3cdb-e9e6-4ed6-aa9a-5c227ba319c3","path":"sprites/spr_paisagem/spr_paisagem.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"944bdd95-f464-4ad5-a730-fc990282868d","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +106,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":4000,
 }
