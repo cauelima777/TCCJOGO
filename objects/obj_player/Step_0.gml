@@ -6,7 +6,7 @@ var esquerda = keyboard_check(ord("A"));
 var direita = keyboard_check(ord("D"));
 var pulando = keyboard_check_pressed(ord("W"));
 var habilidade = keyboard_check_pressed(ord("K"));
-var superpulo = keyboard_check(ord("M"));
+
 var restart = keyboard_check(ord("R"));
 
 
@@ -83,7 +83,17 @@ if (!chao) {
 if (chao && pulando) {
     velocidade_vertical += -pulo;
 	audio_play_sound(sdn_pulo, 0, false);
+	
+	
+	
+	
+	
+	
 }
+
+
+
+
 
 // Limita a velocidade horizontal
 velocidade_horizontal = clamp(velocidade_horizontal, -velocidade_h_max, velocidade_h_max);
@@ -200,6 +210,16 @@ if (hit > 0) {
     image_alpha = 0.5 + 0.5 * sin(hit * pi); // Faz o jogador "piscar"
 } else {
     image_alpha = 1; // Volta ao estado normal
+}
+
+
+// Super pulo temporário
+if (super_pulo_ativo) {
+    super_pulo_timer -= 1;
+    if (super_pulo_timer <= 0) {
+        pulo = 10; // Volta ao pulo normal
+        super_pulo_ativo = false;
+    }
 }
 
 

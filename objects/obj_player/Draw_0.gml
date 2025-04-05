@@ -16,8 +16,8 @@ if (hit >= 0) {
 }
 
 
-
-
+// Desenha o jogador normalmente
+draw_self();
 
 
 

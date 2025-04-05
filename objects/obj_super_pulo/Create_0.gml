@@ -1,0 +1,1 @@
+show_debug_message("Super Pulo criado em X=" + string(x) + ", Y=" + string(y));

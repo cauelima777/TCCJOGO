@@ -46,6 +46,7 @@
     {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_resume","order":1,"path":"objects/obj_resume/obj_resume.yy",},
     {"name":"obj_room","order":1,"path":"objects/obj_room/obj_room.yy",},
+    {"name":"obj_super_pulo","order":7,"path":"objects/obj_super_pulo/obj_super_pulo.yy",},
     {"name":"voltar_room","order":4,"path":"objects/voltar_room/voltar_room.yy",},
     {"name":"rm_menu_pause","order":5,"path":"rooms/rm_menu_pause/rm_menu_pause.yy",},
     {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},

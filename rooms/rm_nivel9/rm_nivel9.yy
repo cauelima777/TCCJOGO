@@ -67,7 +67,6 @@
     {"name":"inst_3D547464_1_1_1","path":"rooms/rm_nivel9/rm_nivel9.yy",},
     {"name":"inst_5C95C858_1_1_1","path":"rooms/rm_nivel9/rm_nivel9.yy",},
     {"name":"inst_1116EF2B_1_1_1","path":"rooms/rm_nivel9/rm_nivel9.yy",},
-    {"name":"inst_65441A0E_1_1_1","path":"rooms/rm_nivel9/rm_nivel9.yy",},
     {"name":"inst_1C8755C3_1_1_1","path":"rooms/rm_nivel9/rm_nivel9.yy",},
     {"name":"inst_8946D30_1_1_1","path":"rooms/rm_nivel9/rm_nivel9.yy",},
     {"name":"inst_60E3D9D3_1_1_1","path":"rooms/rm_nivel9/rm_nivel9.yy",},
@@ -157,7 +156,6 @@
       ],"layers":[],"name":"pause","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Player","depth":100,"effectEnabled":true,"effectType":null,"gridX":64,"gridY":64,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_60F16405_1_1_2_2_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60F16405_1_1_2_2_1_1_1","objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":480.0,},
-        {"$GMRInstance":"v1","%Name":"inst_65441A0E_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_65441A0E_1_1_1","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":245.0,"y":895.0,},
       ],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"inimigo","depth":200,"effectEnabled":true,"effectType":null,"gridX":64,"gridY":64,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"inimigo","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"tijolo","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"tijolo","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":86,"TileCompressedData":[

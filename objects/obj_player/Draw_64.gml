@@ -50,6 +50,18 @@ draw_text_transformed(500, 100, "PROJETO EM DESENVOLVIMENTO (ALPHA)", 1.5, 1.5, 
 if (global.pause) {
 	draw_set_color(c_white);
 	draw_text_transformed(700, 400, "PAUSADO", 1.5, 1.5, 1);
+	
 
 
 }
+
+if (super_pulo_ativo) {
+    draw_set_color(c_white);
+    draw_set_font(-1); // Usa fonte padrão, mas pode trocar
+    var segundos = ceil(super_pulo_timer / room_speed);
+    draw_text(20, 20, "Super pulo: " + string(segundos) + "s");
+}
+
+
+
+
