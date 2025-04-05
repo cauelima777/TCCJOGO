@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"tl_nivel5",
+  "%Name":"tl_blocos_nv7",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"tl_nivel5",
-  "out_columns":7,
+  "name":"tl_blocos_nv7",
+  "out_columns":4,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite46",
-    "path":"sprites/Sprite46/Sprite46.yy",
+    "name":"spr_blocos_nv7",
+    "path":"sprites/spr_blocos_nv7/spr_blocos_nv7.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -28,11 +28,11 @@
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
-  "tileHeight":64,
+  "tileHeight":16,
   "tilehsep":0,
   "tilevsep":0,
-  "tileWidth":64,
+  "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":50,
+  "tile_count":16,
 }
