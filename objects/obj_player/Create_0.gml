@@ -1,5 +1,6 @@
 tem_chave = false; // Inicialmente o jogador não tem a chave
 
+controle = true;
 
 
 
@@ -48,11 +49,13 @@ timer = 60;
 timer_max = timer;
 
 dir_hab = 0;
-cd_hab = 1 *60
+cd_hab = 1 *50
 cd_hab_max = cd_hab;
 hab_a = 0;
 
 
+// Inicialize a variável global de controle de game over
+global.game_over = false; // Começa o jogo com "game over" desativado
 
 
 pulo_normal = pulo; // Guarda o valor do pulo normal

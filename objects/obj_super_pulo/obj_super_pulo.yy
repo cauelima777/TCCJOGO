@@ -10,8 +10,8 @@
   "name":"obj_super_pulo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Objetos/Player.yy",
+    "name":"Itens",
+    "path":"folders/Objetos/Itens.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_block",
-    "path":"sprites/spr_block/spr_block.yy",
+    "name":"spr_super_pulo54",
+    "path":"sprites/spr_super_pulo54/spr_super_pulo54.yy",
   },
   "spriteMaskId":null,
   "visible":true,

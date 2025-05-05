@@ -13,6 +13,11 @@ var restart = keyboard_check(ord("R"));
 
 var avanco_h = (direita - esquerda) * velocidade_h_max;
 
+
+
+
+
+
 // Controle da velocidade horizontal
 velocidade_horizontal = lerp(velocidade_horizontal, avanco_h, velocidade);
 
@@ -142,6 +147,27 @@ if (timer >= timer_max) {
         }
     }
 	
+//boss	
+	
+	    if (instance_exists(obj_boss) && place_meeting(x, y, obj_boss)) {
+        if (velocidade_vertical <= 0) {
+            if (obj_boss.direction == 180) {
+                velocidade_horizontal -= knockback;
+            } else if (obj_boss.direction == 0) {
+                velocidade_horizontal += knockback;
+            }
+            vida--;
+            hit = 3;
+            timer = 0;
+			
+			//Caso a vida for zero encerra o bagui
+			if(vida == 0){
+		
+				room_restart()
+			}
+        }
+    }
+	
 	//lava dos cria dando dano no player
 	
 	if(instance_exists(lava) && place_meeting(x, y, obj_lava)){
@@ -195,7 +221,7 @@ if (cd_hab == cd_hab_max) {
 if (hab_a) {
     sprite_index = spr_soco;
 
-    if (image_index > 2) {
+    if (image_index > 1) {
         hab_a = 0;
 
     }

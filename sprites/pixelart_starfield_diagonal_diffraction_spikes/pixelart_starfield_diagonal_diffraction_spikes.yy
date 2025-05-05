@@ -35,7 +35,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"pixelart_starfield_diagonal_diffraction_spikes",
     "autoRecord":true,
     "backdropHeight":768,
@@ -66,6 +66,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":320.0,
+    "seqWidth":320.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

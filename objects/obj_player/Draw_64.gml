@@ -34,16 +34,9 @@ if(rm_nivel1){
 }
 
 
-if(rm_nivel1){
-
-	draw_set_color(c_white);
-	draw_text_transformed(500, 100, "PROJETO EM DESENVOLVIMENTO (ALPHA)", 1.5, 1.5, 1);
-}
 // Definir a cor do texto
 draw_set_color(c_black);
 
-
-draw_text_transformed(500, 100, "PROJETO EM DESENVOLVIMENTO (ALPHA)", 1.5, 1.5, 1);
 
 
 

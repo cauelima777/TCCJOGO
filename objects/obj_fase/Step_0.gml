@@ -18,6 +18,13 @@ if (place_meeting(x, y, obj_player)) {
                 transicao_ativa = true;        // Ativa a transição antes de mudar de fase
                 proxima_sala = rm_nivel1;      // Define a próxima fase para rm_nivel2
             }
+			
+			
+			}
         }
     } 
-}
+	
+
+	
+
+

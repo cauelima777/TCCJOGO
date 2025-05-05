@@ -17,7 +17,7 @@ if (place_meeting(x, y, obj_player)) {
             // A transição será ativada quando o jogador apertar a tecla Enter
             if (keyboard_check_pressed(vk_enter)) {
                 transicao_ativa = true;        // Ativa a transição antes de mudar de fase
-                proxima_sala = rm_nivel3;      // Define a próxima fase para rm_nivel2
+                proxima_sala = rm_nivel4;      // Define a próxima fase para rm_nivel2
             }
         }
     
