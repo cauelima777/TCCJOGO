@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_enemy_slime",
-    "path":"sprites/spr_enemy_slime/spr_enemy_slime.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

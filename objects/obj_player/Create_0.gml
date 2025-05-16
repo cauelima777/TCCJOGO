@@ -60,6 +60,11 @@ global.game_over = false; // Começa o jogo com "game over" desativado
 
 pulo_normal = pulo; // Guarda o valor do pulo normal
 
+can_double_jump = false; // Se o poder foi desbloqueado
+double_jump_used = false; // Se o pulo duplo já foi usado no ar
+
+tem_pulo_duplo = false; // Ainda não coletou o poder
+pulos_disponiveis = 1;  // Só 1 pulo por padrão
 
 
 global.x_player = x

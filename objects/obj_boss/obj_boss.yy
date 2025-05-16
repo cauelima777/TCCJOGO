@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_paisagem2",
-    "path":"sprites/spr_paisagem2/spr_paisagem2.yy",
+    "name":"spr_slime",
+    "path":"sprites/spr_slime/spr_slime.yy",
   },
   "spriteMaskId":null,
   "visible":true,

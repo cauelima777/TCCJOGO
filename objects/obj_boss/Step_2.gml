@@ -5,7 +5,7 @@ if(global.pause)
 
 }
 
-speed = 2;
+speed = 5;
 
 
 if(place_meeting(x, y + velocidade_vertical, obj_block)) {

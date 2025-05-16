@@ -27,7 +27,7 @@ tempo_ataque += 1;
 if (tempo_ataque >= tempo_max) {
     // Cria vários projéteis descendo do céu
     for (var i = 0; i < 5; i++) {
-        var chuva = instance_create_layer(x - 100 + i * 100, y - 250, "inimigo", obj_chuva);
+        var chuva = instance_create_layer(x - 200 + i * 200, y - 250, "inimigo", obj_chuva);
     }
     tempo_ataque = 0;
 }

@@ -85,16 +85,23 @@ if (!chao) {
 }
 
 // Pulo
-if (chao && pulando) {
-    velocidade_vertical += -pulo;
-	audio_play_sound(sdn_pulo, 0, false);
-	
-	
-	
-	
-	
-	
+// Reset de pulos ao tocar o chão
+if (chao) {
+    if (tem_pulo_duplo) {
+        pulos_disponiveis = 2;
+    } else {
+        pulos_disponiveis = 1;
+    }
 }
+
+// Sistema de pulo
+if (pulando && pulos_disponiveis > 0) {
+    velocidade_vertical = -pulo;
+    pulos_disponiveis -= 1;
+    audio_play_sound(sdn_pulo, 0, false);
+}
+
+
 
 
 
